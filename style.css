@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.container2 {
+    display: flex;
+    background-color: red;
+}
+
+.product {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 150px;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+button {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+button.heart {
+    background-color: #fff;
+    border: none;
+    color: #aaa;
+    font-size: 20px;
+}
+
+button.heart.active {
+    color: rgb(255, 0, 25);
+}
+
+.quantity {
+    font-size: 16px;
+    margin: 0 10px;
+}
+
+
+
+
+
+
+/* Style for the container */
+.container {
+    display: flex;
+    justify-content: center;  /* Horizontally center the boxes */
+    align-items: center;      /* Vertically center the boxes (if needed) */
+    flex-wrap: wrap;          /* Ensure boxes wrap if there are too many to fit in one line */
+    height: 100vh;            /* Optional: if you want to center vertically within the viewport */
+}
+
+/* Style for the boxes */
+.box {
+    width: 150px;    /* Adjust to your desired width */
+    height: 200px;   /* Adjust to your desired height */
+    margin: 10px;    /* Adjust the margin between boxes */
+    background-color: white;  /* Background color for the boxes */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  /* Optional: shadow for the boxes */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  /* Center content within the box */
+    align-items: center;
